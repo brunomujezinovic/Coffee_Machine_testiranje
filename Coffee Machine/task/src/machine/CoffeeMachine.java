@@ -118,6 +118,18 @@ public class CoffeeMachine {
         System.out.println("Write how many disposable cups of coffee you want to add:");
         int addcups = s.nextInt();
 
+       /* System.out.println("The coffee machine has:");
+        System.out.println((water = water + addwater) + " ml of water");
+        System.out.println((milk = milk + addmilk) + " ml of milk");
+        System.out.println((coffee = coffee + addcoffee) + " g of coffee beans");
+        System.out.println((cups = cups + addcups) + " disposable cups");
+        System.out.println("$" + pare + " of money");
+        */
+        water = water + addwater;
+        milk = milk + addmilk;
+        coffee = coffee + addcoffee;
+        cups = cups + addcups;
+
     }
 
     private static void take() {
